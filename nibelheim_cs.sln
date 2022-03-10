@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{089B4A47-CAC7-494D-BAB3-02000B7A9848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nibelheim.types", "src\nibelheim.types\nibelheim.types.csproj", "{9129B111-B544-4D5E-9A4E-C1535EE9ACF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B9FC2BD7-EDC9-4AF1-A674-DBDA67546E71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nibelheim.types.tests", "tests\nibelheim.types.tests\nibelheim.types.tests.csproj", "{FD76CAE8-CCDB-4289-9D6E-59F41AA27B82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9129B111-B544-4D5E-9A4E-C1535EE9ACF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9129B111-B544-4D5E-9A4E-C1535EE9ACF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9129B111-B544-4D5E-9A4E-C1535EE9ACF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9129B111-B544-4D5E-9A4E-C1535EE9ACF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD76CAE8-CCDB-4289-9D6E-59F41AA27B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD76CAE8-CCDB-4289-9D6E-59F41AA27B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD76CAE8-CCDB-4289-9D6E-59F41AA27B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD76CAE8-CCDB-4289-9D6E-59F41AA27B82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9129B111-B544-4D5E-9A4E-C1535EE9ACF0} = {089B4A47-CAC7-494D-BAB3-02000B7A9848}
+		{FD76CAE8-CCDB-4289-9D6E-59F41AA27B82} = {B9FC2BD7-EDC9-4AF1-A674-DBDA67546E71}
+	EndGlobalSection
+EndGlobal
